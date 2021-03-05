@@ -5,3 +5,4 @@ alias wk='watch kubectl'
 alias kx='kubectx'
 alias kgpo='kubectl get pod'
 alias dfimage="docker run -v /var/run/docker.sock:/var/run/docker.sock --rm alpine/dfimage"
+alias ll='ls -latr'
