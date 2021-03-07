@@ -4,7 +4,7 @@
 
 **Aliases**
 
-My aliases collecet in `00-aliases.sh` file.
+My aliases in `00-aliases.sh` file.
 
 Usage:
 ```bash
