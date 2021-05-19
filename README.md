@@ -27,7 +27,7 @@ wget https://raw.githubusercontent.com/NAndras95/linux/main/deb10-base.sh -P /tm
 ```bash
 wget https://raw.githubusercontent.com/NAndras95/linux/main/deb10-base.sh -P /tmp/ && chmod +x /tmp/deb10-base.sh && bash /tmp/deb10-base.sh dev
 ```
-**mysql-backup***
+**mysql-backup**
 
 Edit the username and the password before you use the script.
 
