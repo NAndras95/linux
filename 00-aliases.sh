@@ -1,9 +1,16 @@
 # useful
-alias edithosts='sudo nano /etc/hosts'
+alias h='history'
 alias ll='ls -latr'
+alias mkdir='mkdir -pv'
+alias untar='tar -zxvf'
+alias eh='sudo nano /etc/hosts'
+alias pua='curl ipinfo.io/ip'
+alias pra='ipconfig getifaddr en0'
+alias ns='speedtest-cli --single'
 
 # docker related
 alias dokcer='docker'
+alias dockerclean='docker system prune -f && docker image prune -a --filter "until=168h" -f'
 alias dfimage="docker run -v /var/run/docker.sock:/var/run/docker.sock --rm alpine/dfimage"
 
 # kubernetes related
@@ -19,6 +26,7 @@ alias kube='microk8s.kubectl'
 # git related
 alias gf='git fetch'
 alias gpl='git pull'
+alias ga='git add'
 alias gaa='git add --all'
 alias gcm='git commit -m'
 alias gph='git push'
