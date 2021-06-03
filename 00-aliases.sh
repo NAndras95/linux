@@ -7,6 +7,7 @@ alias eh='sudo nano /etc/hosts'
 alias pua='curl ipinfo.io/ip'
 alias pra='ipconfig getifaddr en0'
 alias ns='speedtest-cli --single'
+alias myaliases='cat $HOME/.bash_profile | grep alias'
 
 # docker related
 alias dokcer='docker'
