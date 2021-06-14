@@ -32,3 +32,13 @@ alias gaa='git add --all'
 alias gcm='git commit -m'
 alias gph='git push'
 alias gr='git reset --soft HEAD~1'
+
+# functions
+mpa(){ # tested on MacOS
+  for dir in $1; do printf \
+  "%-9s: %5d files in %5d folders, " \
+  "$dir" \
+  $(find $dir -type f | wc -l) \
+  $(find $dir -type d | wc -l); \
+  du -sh $dir | cut -f1; done
+}
