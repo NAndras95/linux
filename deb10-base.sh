@@ -11,6 +11,6 @@ if [ $# -eq 0 ]
   elif [ $1 == "dev" ]
   then
     apt-get update
-    apt-get install git wget nano python mc sudo lsb-release  -y
+    apt-get install git wget nano python mc sudo lsb-release network-manager  -y
 fi
 
