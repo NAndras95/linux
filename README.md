@@ -35,3 +35,9 @@ Usage:
 ```
 ./mysql-backup.sh
 ```
+
+**History timestamp**
+```bash
+echo 'HISTTIMEFORMAT="%F %T "' >> ~/.bashrc
+source ~/.bashrc
+```
